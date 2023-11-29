@@ -1,5 +1,5 @@
 /* en vrac :
-100% 100% 100% 0 auto border-box box-sizing 
+100% 100% 100% 0 auto 
 display height flex flex none margin 
 max-width width width
 */ 
@@ -11,12 +11,14 @@ max-width width width
         height: auto;
     }
     .carrousel_parent-ecrans {
-      /* aligne horizontalement les enfants */
-      /* largeur du parent */
+      display : flex;
+      overflow-x: auto;
+      width: 100%;
     
     }
     .carrousel_ecran {
         flex: none;
+        width: 100p;
     }
     .carrousel_ecran figure {
       margin : 0;
