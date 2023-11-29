@@ -16,9 +16,8 @@ max-width width width
     
     }
     .carrousel_ecran {
-        flex: 0 0 100%;
-        scroll-snap-align: start;
+        flex: none;
     }
     .carrousel_ecran figure {
-      /* enlève les marges par défaut */
+      margin : 0;
     }
