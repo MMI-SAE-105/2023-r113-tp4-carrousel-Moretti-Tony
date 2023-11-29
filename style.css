@@ -16,8 +16,8 @@ max-width width width
     
     }
     .carrousel_ecran {
-      /* largeur du parent pour chaque enfant */
-      /* permet de garder toute la largeur du parent */
+        flex: 0 0 100%;
+        scroll-snap-align: start;
     }
     .carrousel_ecran figure {
       /* enlève les marges par défaut */
