@@ -63,7 +63,15 @@
         padding: 0; /* enlève les padding par défaut */
         list-style: none; /* enlève les puces par défaut */
         gap: 1rem; /* espace entre les enfants */
+        padding-top: 3vh;
     }
     .caroussel_lien.actif {
         font-weight: bold; /* met en gras le lien actif */
-      }
+            }
+    .caroussel_lien {
+        text-decoration: none; /* enlève le soulignement par défaut */
+        color: black; /* couleur des liens */
+        padding: 0.5rem 1rem; /* espace autour du lien */
+        border-radius: 0.5rem; /* arrondi des coins */
+        background: white; /* couleur de fond */
+    }
