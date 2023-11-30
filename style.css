@@ -5,6 +5,8 @@
     font-family: "poppins";
     outline: none;
     border: none;
+    background: black;
+    color: white;
     }
     img {
         max-width: 100%;
