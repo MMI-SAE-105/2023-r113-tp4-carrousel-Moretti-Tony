@@ -3,6 +3,8 @@
     * {
     box-sizing: border-box;
     font-family: "poppins";
+    outline: none;
+    border: none;
     }
     img {
         max-width: 100%;
