@@ -18,12 +18,14 @@
       width: 100%;
       scroll-behavior: smooth;
       scroll-snap-type: x mandatory;
-    
+      box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.021);
+      border-radius: 0.6rem;
     }
     .carrousel_ecran {
         flex: none;
         width: 100%;
         scroll-snap-align: start;
+        object-fit: cover;
     }
     .carrousel_ecran figure {
       margin : 0;
@@ -66,6 +68,7 @@
         padding-top: 3vh;
     }
     .caroussel_lien.actif {
+        transition: smooth 275ms;
         font-weight: bold; /* met en gras le lien actif */
             }
     .caroussel_lien {
@@ -74,4 +77,9 @@
         padding: 0.5rem 1rem; /* espace autour du lien */
         border-radius: 0.5rem; /* arrondi des coins */
         background: white; /* couleur de fond */
+        opacity: 0.8;
+        transition: opacity ease 275ms;
+    }
+    .caroussel_lien:hover {
+        opacity: 1;
     }
